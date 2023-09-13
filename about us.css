@@ -1,0 +1,259 @@
+.con{border: 3px solid;
+    border-radius: 10px;}
+    
+    
+    .navdiv{justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    }
+    
+    .a1{font-size: 70px;
+    font-weight: bold;
+    color: red;
+    }
+    
+    li{list-style: none;display: inline-block;padding: 20px; font-weight: bold;
+    cursor: pointer;}
+    
+    a{text-decoration: none;color: black; font-weight: bold; }
+    
+    button:hover{background-color: greenyellow;}
+    
+    button{padding: 8px;background-color: white;margin: 10px;
+    border-radius: 10px;
+font-weight: bold;
+cursor: pointer;}
+    
+    /* li a:hover{color: red;
+    text-decoration: underline;} */
+    
+    .a1:hover{color: black;text-decoration: underline;}
+
+.a{width: 100%;
+height: 100%;
+display: flex;}
+
+.a11{width: 50%;
+height: 50%;
+margin-top: 50px;}
+
+.aa1{width: 50%;
+    height: 50%;
+position: relative;}
+    .a2{padding-top: 50px;
+        position: absolute;
+        padding-left: 200px;
+
+    }
+
+    .aa h1{text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 70px;
+letter-spacing: 4px;}
+    
+    .a11{line-height: 25px;
+    margin-left: 20px;
+margin-top: 50px;
+}
+
+    .a11 h2{letter-spacing: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: xx-large;}
+
+
+
+.b{margin-top: 180px;
+display: flex;
+width: 100%;
+height: 100%;}
+.bb1{width: 50%;
+height: 50%;
+margin-left: 20px;}
+.b11{width: 50%;
+    height: 50%;}
+
+    .b11{line-height: 25px;
+    margin-right: 20px;}
+
+    .b11 h2{letter-spacing: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;}
+
+
+    .con{animation: con;
+        animation-duration: 1.5s;}
+        
+        @keyframes con{
+            0%{
+                transform: translateY(-100px);
+            }
+        }
+
+        .a11{
+            animation: a11;
+            animation-duration: 1.5s;
+        }
+        @keyframes a11{
+        0%{
+            transform: translateX(-500px);
+        }
+     }
+
+
+     .aa1{
+        animation: aa1;
+        animation-duration: 1.5s;
+    }
+    @keyframes aa1{
+    0%{
+        transform: translateX(500px);
+    }
+ }
+
+ .bb1{
+    animation: bb1;
+    animation-duration: 4s;
+}
+@keyframes bb1{
+0%{
+    transform: translateX(-500px);
+}
+}
+
+
+.b11{
+animation: b11;
+animation-duration: 4s;
+}
+@keyframes b11{
+0%{
+transform: translateX(500px);
+}
+}
+
+li a{
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+}
+
+ul span{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 1130px;
+    top: 70px;
+    background-color: greenyellow;
+    border-radius: 7px;
+    transition: 0.5s;
+
+}
+
+.navdiv li:nth-child(1):hover~span
+{
+    left: 755px;
+    width: 80px;
+}
+.navdiv li:nth-child(2):hover~span
+{
+    left: 865px;
+    width: 80px;
+}
+.navdiv li:nth-child(3):hover~span
+{
+    left: 985px;
+    width: 100px;
+}
+.navdiv li:nth-child(4):hover~span
+{
+    left: 1130px;
+    width: 100px;
+}
+
+
+.q{
+    margin-top: 70px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+
+    .a{
+        display: block;
+    }
+    .b{
+        display: block;
+    }
+
+    .a11{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .aa1{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .bb1{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    .b11{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .w2{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+}
+
+@media screen and (min-width:600px) and (max-width:1000px){
+
+    .a{
+        display: block;
+    }
+    .b{
+        display: block;
+    }
+
+    .a11{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .aa1{
+        width: 100%;
+        height: 100%;
+    }
+
+    .bb1{
+        width: 100%;
+        height: 100%;
+        margin-top: 700px;
+    }
+    .b11{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .w2{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+}

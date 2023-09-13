@@ -1,0 +1,73 @@
+.con{
+width: 400px;
+height: 280px;
+margin-top: 150px;
+margin-left: 550px;
+border-radius: 30px;}
+
+.a{text-align: center;
+font-weight: bold;
+font-size: xx-large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+letter-spacing: 2px;
+border-bottom: 2px solid white;}
+
+.a span{background-color: transparent;
+padding: 3px;
+color: white;}
+
+#username{padding-left: 20px;color: white;}
+#password{padding-left: 20px;color: white;}
+
+.a1{text-align: center;}
+
+.a1 button{font-weight: bold;
+border: 2px solid;
+cursor: pointer;
+border-radius: 10px;
+padding: 5px;}
+
+.a1 button:hover{background-color: greenyellow;}
+
+.a2{color: white;
+padding-left: 20px;}
+
+.a2 a{text-decoration: none;
+color: aqua;
+padding: 2px;
+font-weight: bolder;
+}
+
+.a2 a:hover{background-color: white;
+color: black;
+font-weight: bold;}
+
+.con input{outline: none;}
+
+.con{background-color: rgba(0, 0, 0, 0.8);
+box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+padding: 30px;}
+
+body{background-image: url(IMAGES/pexels-polina-tankilevitch-4443490.jpg);background-size: 1600px 1000px;}
+
+.con label,input{margin-top: 10px;}
+
+.con{
+    animation: con;
+    animation-duration: 1.5s;
+}
+
+@keyframes con{
+    0%{
+        transform: translateY(-500px);
+    }
+}
+
+
+@media screen and (max-width:1800px) {
+
+.con{
+    margin: auto;
+    margin-top: 200px;
+}
+}

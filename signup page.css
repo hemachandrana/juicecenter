@@ -1,0 +1,57 @@
+.con{
+margin-top: 40px;
+margin-left: 70px;
+padding: 50px;
+width: 350px;
+border-radius: 20px;
+/* background-image: url(IMAGES/pexels-rdne-stock-project-8963466.jpg);background-size: cover; */
+font-weight: bold;
+color: white}
+
+.a{text-align: center;
+background-color: transparent;
+font-weight: bold;
+color: white;
+font-size: x-large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+letter-spacing: 2px;
+border-bottom: 2px solid white;}
+
+
+.s{text-align: center;}
+
+button{font-weight: bold;
+border: 2px solid;
+cursor: pointer;
+border-radius: 6px;
+padding: 5px;}
+
+button:hover{background-color: greenyellow;}
+
+body{background-image: url(IMAGES/pexels-mikhail-nilov-6740778.jpg); background-size: 1600px 1000px;}
+
+.con{background-color: rgba(0, 0, 0, 0.5);
+box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);}
+
+.a label,input,p{margin-top: 7px;}
+
+.con{animation: con;
+animation-duration: 1.5s;}
+
+@keyframes con{
+    0%{
+        transform: translateX(-500px);
+    }
+}
+
+.con input{
+    outline: none;
+}
+
+@media screen and (max-width:700px) {
+    .con{
+       margin: auto;
+    
+    }
+    
+}
